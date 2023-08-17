@@ -9,7 +9,7 @@ todoButton.addEventListener("click", addTodo);
 // Functions
 function addTodo(e) {
     // preventing form from submitting
-    e.preventDefualt();
+    e.preventDefault();
     // todo DIV
     const todoDiv = document.createElement("div");
     todoDiv.classList.add("todo");
